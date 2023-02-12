@@ -1,0 +1,114 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* background: #242B2E; */
+}
+header{
+     width: 800px;
+     margin: 100px auto;
+}
+header h1{
+     padding: 5px;
+     text-align: center;
+     font-size: 2.5rem;
+     color: #758283;
+}
+.sp{
+     color: #8D3DAF;
+}
+main{
+     max-width: 1040px;
+     margin: 0 auto;
+}
+.container{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 14px;
+}
+.box{
+     background: #449566;
+     padding: 30px;
+     border-radius: 20px;
+     text-align: center;
+}
+.box h2{
+     color: #fff;
+     font-size: 2.4rem;
+     margin-bottom: 10px;
+}
+.box h4{
+     font-size: 2rem;
+     color: #fff;
+}
+.box:nth-child(2){
+     background: #1B98F5;
+}
+.box:last-child{
+     background: #FF6263;
+}
+section{
+     margin: 120px auto;
+}
+.containers{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 20px;
+}
+ .input-x{
+     width: 400px;
+     border-radius: 10px;
+     padding: 10px;
+     outline: none;
+     border: none;
+}
+.btn{
+     width: 120px;
+     border-radius: 10px;
+     padding: 10px;
+     margin-top: 20px;
+     font-size: 1.5rem;
+     color: #fff;
+     background: #605454;
+     outline: none;
+     border: none;
+}
+.btn:hover{
+     background: transparent;
+     border: 2px solid slategrey;
+}
+/* form div */
+.div-form{
+     width: 600px;
+      border-radius: 10px;
+     text-align: center;
+     padding: 10px;
+     margin: 0 auto;
+     background: #b05151;
+}
+.div-form h1{
+     color: #353333;
+     font-size: 2.4rem;
+}
+.i-btn{
+     width: 250px;
+     padding: 10px 20px;
+     margin-bottom: 20px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+}
+.submit{
+     width: 100px;
+     padding: 12px 20px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+     background: #6f6d6d;
+     letter-spacing: 1px;
+     font-size: 1.3rem;
+}
+.submit:hover{
+     background: transparent;
+     border: 2px solid #6f6d6d;
+}
